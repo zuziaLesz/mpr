@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Cat</title>
+</head>
+<body>
+<p>New Cat</p>
+<form action="#" th:object="${cat}" th:action="@{/addCat}" method="POST">
+<div>
+    <label>id</label>
+    <input th:field="*{id}" id = "id" type="input" name="id" required>
+</div>
+    <div>
+        <label>name</label>
+        <input th:field="*{name}" id="name" type="input" name="name" required>
+    </div>
+    <button type="submit">save</button>
+</form>
+</body>
+</html>

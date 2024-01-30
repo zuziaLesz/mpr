@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pjatk.MPR.MyRestAssuredControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-09T16:30:52" hostname="GDA410-01" time="2.895">
+  <properties/>
+  <testcase name="testGetCatById()" classname="com.pjatk.MPR.MyRestAssuredControllerTest" time="2.895"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

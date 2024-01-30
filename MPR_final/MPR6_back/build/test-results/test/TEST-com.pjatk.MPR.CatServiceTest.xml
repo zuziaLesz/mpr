@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pjatk.MPR.CatServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-11-21T16:26:07" hostname="GDA410-01" time="2.112">
+  <properties/>
+  <testcase name="sendCatThatDoesNotExistsTest()" classname="com.pjatk.MPR.CatServiceTest" time="2.074"/>
+  <testcase name="sendCatThatAlreadyExists()" classname="com.pjatk.MPR.CatServiceTest" time="0.023"/>
+  <testcase name="findCatWithGivenNameTest()" classname="com.pjatk.MPR.CatServiceTest" time="0.006"/>
+  <testcase name="findCatThatExistsTest()" classname="com.pjatk.MPR.CatServiceTest" time="0.003"/>
+  <testcase name="findCatThatDoesNotExistTest()" classname="com.pjatk.MPR.CatServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

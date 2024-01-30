@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CATS</title>
+</head>
+<body>
+<table>
+  <thead>
+  <th>id</th>
+  <th>name</th>
+  </thead>
+  <tbody>
+  <tr th:each="cat : ${cats}">
+    <td th:text="${cat.id}"></td>
+    <td th:text="${cat.name}"></td>
+    <td>
+      <a th:href="@{'/editCat/' + ${cat.id}}">edit</a>
+      <a th:href="@{'/deleteCat/' + ${cat.id}}">delete</a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<a th:href="@{/addCat}">add Cat</a>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit cat</title>
+</head>
+<body>
+
+<h2>Edit Cat</h2>
+
+<form th:action="@{'/editCat/' + ${cat.id}}" method="post">
+    <div>
+        <input type="hidden" th:field="*{id}" />
+    </div>
+    <div>
+        <label for="name">Cat Name:</label>
+        <input th:field="*{name}" id="name" type="input" name="name" required>
+    </div>
+    <button type="submit">Edit cat</button>
+</form>
+
+</body>
+</html>
